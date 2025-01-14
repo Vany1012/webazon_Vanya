@@ -39,6 +39,7 @@
         background-color: #000633;
         width: 5vw;
         height: 4vh;
+        cursor: pointer;
     }
     #articulos{
         display: flex;
@@ -72,6 +73,7 @@
     }
     .img_articulo{
         border-radius: 5px;
+        cursor: pointer;
         width: 70vw;
         height: 40vh;
     }
@@ -90,6 +92,7 @@
     .ver_mas{
         background-color: white;
         color: rgb(96, 96, 236);
+        cursor: pointer;
         font-size: .7rem;
     }
     .categoria{
@@ -101,13 +104,14 @@
     }
     .carrito{
         background-color: white;
+        cursor: pointer;
         margin-top: 1rem;
         width: 5vw;
         height: 5vh;
         transition: transform 0.3s ease;
     }
     .carrito:hover{
-        transform: rotate(180deg);
+        transform: rotatez(360deg);
     }
     footer{
         background-color: #000633;
