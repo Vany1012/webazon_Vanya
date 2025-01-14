@@ -5,7 +5,7 @@
     background-color: #efefef;
 }
 
-/*Para dispositivos moviles*/
+/*Para Smartphone*/
 @media (max-width: 480px) and (orientation: portrait){
     #inp-buscar{
         display: none;
@@ -130,12 +130,15 @@
     };
 }
 
-/*Para tablets*/
+
+
+/*Para Tablet*/
 @media (max-width: 768px){
     #inp-buscar{
         border-radius: .3rem;
         background-color: white;
         width: 30vw;
+        height: 4vh;
     }
     #perfil{
         background-color: #000633;
@@ -155,7 +158,7 @@
         font-size: .7rem;
     }
     #list_perfil li:hover{
-        text-decoration: underline;
+        outline: 2px solid white;
     }
     #menu{
         display: none;
@@ -268,6 +271,191 @@
         color: white;
         text-align: center;
         padding: 1rem;
+    }
+    p{
+        background-color: #000633;
+    };
+}
+
+
+/*Para Desktop*/
+@media (min-width: 769px){
+    #inp-buscar{
+        border-radius: .3rem;
+        background-color: white;
+        border-width: 3px;
+        width: 60vw;
+        height: 5vh;
+    }
+    #perfil{
+        background-color: #000633;
+    }
+    #list_perfil{
+        background-color: #000633;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #list_perfil li{
+        background-color: #000633;
+        color: white;
+        cursor: pointer;
+        list-style-type: none;
+        margin-right: 1.5rem;
+        font-size: 1rem;
+    }
+    #list_perfil li:hover{
+        outline: 2px solid white;
+    }
+    #menu{
+        background-color: #000214;
+        position: sticky;
+        top: 9vh;
+        z-index: 100;
+    }
+    #nav-bar{
+        background-color: #000214;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+    #nav-bar li{
+        background-color: #000214;
+        color: white;
+        cursor: pointer;
+        list-style-type: none;
+    }
+    #nav-bar li:hover{
+        outline: 2px solid white;
+    }
+    #oferta{
+        text-align: center;
+    }
+    #img_oferta{
+        width: 90%;
+    }
+    #p_oferta{
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
+        width: 25vw;
+        position: absolute;
+        top: 30vh;
+        left: 20vw;
+    }
+    header{
+        background-color: #000633;
+        display: flex;
+        height: 9vh;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        position: sticky;
+        top: 0px;
+        z-index: 101;
+    }
+    #nombre_sitio{
+        background-color: #000633;
+        color: white;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    #img_menu{
+        display: none;
+    }
+    #articulos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .articulos_cuatro{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+
+    }
+    .articulos_dos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .articulo_uno{
+        background-color: white;
+        box-shadow: 2px 2px 5px rgb(91, 91, 91);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 60vh;
+        padding: 2%;
+        margin-left: 1.5vw;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    .img_articulo{
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        height: 40vh;
+    }
+    .img_articulo:hover{
+        box-shadow: 2px 2px 5px rgb(91, 91, 91);
+    }
+    .promocion_y_vermas{
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        width: 15vw;
+    }
+    .promocion{
+        background-color: white;
+        color: red;
+    }
+    .ver_mas{
+        background-color: white;
+        color: rgb(96, 96, 236);
+        cursor: pointer;
+        font-size: .7rem;
+    }
+    .ver_mas:hover{
+        text-decoration: underline;
+    }
+    .categoria{
+        background-color: white;
+        margin-top: 1rem;
+        text-align: left;
+        font-weight: bold;
+        width: 15vw;
+    }
+    .carrito{
+        background-color: white;
+        cursor: pointer;
+        margin-top: 1rem;
+        width: 2vw;
+        height: 4vh;
+        transition: transform 0.3s ease;
+    }
+    .carrito:hover{
+        transform: rotatez(45deg);
+    }
+    footer{
+        background-color: #000633;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
     }
     p{
         background-color: #000633;
