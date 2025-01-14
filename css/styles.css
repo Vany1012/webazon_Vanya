@@ -6,7 +6,7 @@
 }
 
 /*Para Smartphone*/
-@media (max-width: 480px) and (orientation: portrait){
+@media (max-width: 480px){
     #inp-buscar{
         display: none;
     }
@@ -32,8 +32,12 @@
     #nombre_sitio{
         background-color: #000633;
         color: white;
+        cursor: pointer;
         font-weight: bold;
         font-size: 1.5rem;
+    }
+    #nombre_sitio:hover{
+        outline: 2px solid white;
     }
     #img_menu{
         background-color: #000633;
@@ -131,9 +135,8 @@
 }
 
 
-
 /*Para Tablet*/
-@media (max-width: 768px){
+@media (min-width: 481px) and (max-width: 768px){
     #inp-buscar{
         border-radius: .3rem;
         background-color: white;
@@ -179,8 +182,12 @@
     #nombre_sitio{
         background-color: #000633;
         color: white;
+        cursor: pointer;
         font-weight: bold;
         font-size: 1.5rem;
+    }
+    #nombre_sitio:hover{
+        outline: 2px solid white;
     }
     #img_menu{
         display: none;
@@ -286,6 +293,7 @@
         border-width: 3px;
         width: 60vw;
         height: 5vh;
+        margin-left: 1rem;
     }
     #perfil{
         background-color: #000633;
@@ -359,8 +367,12 @@
     #nombre_sitio{
         background-color: #000633;
         color: white;
+        cursor: pointer;
         font-weight: bold;
         font-size: 1.5rem;
+    }
+    #nombre_sitio:hover{
+        outline: 2px solid white;
     }
     #img_menu{
         display: none;
