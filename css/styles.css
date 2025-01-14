@@ -77,6 +77,9 @@
         width: 70vw;
         height: 40vh;
     }
+    .img_articulo:hover{
+        box-shadow: 2px 2px 5px rgb(91, 91, 91);
+    }
     .promocion_y_vermas{
         background-color: white;
         display: flex;
@@ -95,6 +98,9 @@
         cursor: pointer;
         font-size: .7rem;
     }
+    .ver_mas:hover{
+        text-decoration: underline;
+    }
     .categoria{
         background-color: white;
         margin-top: 1rem;
@@ -111,7 +117,7 @@
         transition: transform 0.3s ease;
     }
     .carrito:hover{
-        transform: rotatez(360deg);
+        transform: rotatez(45deg);
     }
     footer{
         background-color: #000633;
